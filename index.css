@@ -1,7 +1,8 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
   v2.0 | 20110126
   License: none (public domain)
-*/html, body, div, span, applet, object, iframe,
+*/
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -44,29 +45,97 @@ table {
  border-collapse: collapse;
  border-spacing: 0;
 }
+/* this is where my css begins */
+*{
+    
+    Margin-right:5%;
+    Margin-right:5%;
+}
+h1{
+    font-family: Chelsea+Market;
+    Font-size: 3.5rem;
+}
+h4{
+    font-size:1rem;
+}
+.top-section{
+    Display:inline-block;
+border: 2px solid blue;
+ 
+}
+img{max-width: 10rem;
+    max-height: 10rem;
+}
+.header-img{
+    max-width: 10rem;
+    max-height: 10rem;
+border: 2px solid green;    
+}
+#header-wrds{
+  
+    Border: 2px solid red;
+    text-align: center;
+    margin-left:50%;
+    Margin-right:10%;
+    Padding:1rem;
 
-nav{
-    display:flex;
-    justify-content: space-between;
 }
 .headerm{
-   text-align: center;
-   margin-right: 20%;
-   margin-left: 20%;
-   margin-top:3%;
-}
-#plan{color:white;
-    padding:2rem;
-background-color: #FF764E;
+  
+  Margin-top:2%;
+  margin-bottom: 2%;
+  margin-left:20%;
+  margin-right: 20%;
 }
 
-#learn{color:white;
-    padding:2rem;
-    background-color:#5ED3EB
+#plan{
+    display: inline-block;
+    width:10%;
+    Margin-right:10%;
+    text-align: center;
+    border-radius: 15px;
+    color:white;
+    padding:1rem;
+    background-color: #FF764E;
 }
 
-#involve{color:white;
-    padding:2rem;
-background-color: #FFCD69
+#learn{
+    display: inline-block;
+    margin-right:10%;
+    margin-left:10%;
+    width:10%;
+    text-align: center;
+    border-radius: 15px;
+    color:white;
+    padding:1rem;
+    background-color:#5ED3EB;
+}
 
+#involve{
+    display: inline-block;
+    Margin-left:10%;
+    text-align: center;
+    border-radius: 15px;
+    width:10%;
+    color:white;
+    padding:1rem;
+    background-color: #FFCD69;
+}
+
+.brownbox{
+    color:white;
+    background-color: #DDB9A3;
+    Margin-right:10%;
+    margin-left:10%;
+    padding: 1rem;
+}
+
+.header-img{
+background-image:"assets/header_img.jp";
+display:inline-block;
+height: 1rem;
+width: 2rem;
+border-radius: 25%;
+margin-top:3%;
+margin-left: 75%;
 }
