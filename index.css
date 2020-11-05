@@ -47,32 +47,35 @@ table {
 }
 /* this is where my css begins */
 *{
-    
+    font-family:"roboto";
     Margin-right:5%;
     Margin-right:5%;
 }
 h1{
-    font-family: Chelsea+Market;
+    font-family: 'Chelsea Market';
     Font-size: 3.5rem;
 }
 h4{
     font-size:1rem;
 }
 .top-section{
-    Display:inline-block;
+    Display:inline;
 border: 2px solid blue;
  
 }
-img{max-width: 10rem;
-    max-height: 10rem;
-}
-.header-img{
+img{display:inline;
     max-width: 10rem;
     max-height: 10rem;
+    border-radius: 100px;
+}
+.header-img{
+    display:inline;
+    width: 10rem;
+    height: 10rem;
 border: 2px solid green;    
 }
 #header-wrds{
-  
+    Display:inline;
     Border: 2px solid red;
     text-align: center;
     margin-left:50%;
@@ -87,7 +90,12 @@ border: 2px solid green;
   margin-left:20%;
   margin-right: 20%;
 }
-
+.footerrm{
+    Margin-top:2%;
+    margin-bottom: 2%;
+    margin-left:20%;
+    margin-right: 20%;
+}
 #plan{
     display: inline-block;
     width:10%;
@@ -138,4 +146,18 @@ width: 2rem;
 border-radius: 25%;
 margin-top:3%;
 margin-left: 75%;
+border-radius: 25px;
+}
+.midsection{
+margin-right:10%;
+margin-left:10%;
+
+}
+.btmsection{
+    margin-right:10%;
+    margin-left:10%;
+    
+}
+#footerimg{
+margin-right:45%;
 }
