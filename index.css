@@ -28,7 +28,9 @@ footer, header, hgroup, menu, nav, section {
  display: block;
 }
 body {
+ max-width:1400px;
  line-height: 1;
+ margin:0 auto;
 }
 ol, ul {
  list-style: none;
@@ -48,58 +50,37 @@ table {
 /* this is where my css begins */
 *{
     font-family:"roboto";
-    Margin-right:5%;
-    Margin-right:5%;
 }
 h1{
     font-family: 'Chelsea Market';
     Font-size: 3.5rem;
+    Margin-bottom: 4rem;
 }
 h4{
-    font-size:1rem;
+    font-size:1.5rem;
+    Margin-bottom: 4rem;
 }
-.top-section{
-    Display:inline;
-border: 2px solid blue;
- 
+.headerp{
+    font-size:1.5rem;
+    width: 70%;
+    margin:0 auto;
+    margin-bottom:1rem;
 }
-img{
-    max-width: 10rem;
-    max-height: 10rem;
-    border-radius: 100px;
-}
-.header-img{
-    display:inline;
-    width: 10rem;
-    height: 10rem;
-border: 2px solid green;    
-}
-#header-wrds{
-    Display:inline;
-    Border: 2px solid red;
-    text-align: center;
-    margin-left:50%;
-    Margin-right:10%;
-    Padding:1rem;
 
-}
-.headerm{
-  
-  Margin-top:2%;
-  margin-bottom: 2%;
-  margin-left:20%;
-  margin-right: 20%;
-}
-.footerrm{
+.headerrm{
+    border:2px solid purple;
     Margin-top:2%;
     margin-bottom: 2%;
     margin-left:20%;
     margin-right: 20%;
 }
+nav{
+    border:2px solid turquoise;
+}
 #plan{
     display: inline-block;
     width:10%;
-    Margin-right:10%;
+    Margin-left:10%;
     text-align: center;
     border-radius: 15px;
     color:white;
@@ -109,8 +90,8 @@ border: 2px solid green;
 
 #learn{
     display: inline-block;
-    margin-right:10%;
-    margin-left:10%;
+    margin-right:18%;
+    margin-left:18%;
     width:10%;
     text-align: center;
     border-radius: 15px;
@@ -121,13 +102,48 @@ border: 2px solid green;
 
 #involve{
     display: inline-block;
-    Margin-left:10%;
     text-align: center;
     border-radius: 15px;
     width:10%;
     color:white;
     padding:1rem;
     background-color: #FFCD69;
+}
+
+.top-section{
+display:block;
+width: 80%;
+border: 2px solid blue;
+margin:0 auto; 
+}
+.header-img{
+    /* display:inline-block; */
+    width: 50%;   
+border: 2px solid green;
+}
+.headm{
+    width: 30%;
+    display:inline-block;
+    border-radius:30rem;   
+}
+    
+#header-wrds{
+    display:inline-block;
+    border: 2px solid red;
+    text-align: center;
+    width:60%;
+     margin-left:2rem;
+   height:100%;
+    /* padding:1rem; */
+
+}
+
+
+.footerrm{
+    Margin-top:2%;
+    margin-bottom: 2%;
+    margin-left:20%;
+    margin-right: 20%;
 }
 
 .brownbox{
@@ -138,8 +154,8 @@ border: 2px solid green;
     padding: 1rem;
 }
 
-.header-img{
-background-image:"assets/header_img.jp";
+/* .header-img{ */
+/* background-image:"assets/header_img.jp";
 display:inline-block;
 height: 1rem;
 width: 2rem;
@@ -147,6 +163,11 @@ border-radius: 25%;
 margin-top:3%;
 margin-left: 75%;
 border-radius: 25px;
+} */
+
+.fire{
+    margin:0 auto;
+    width: 20%;
 }
 .midsection{
 margin-right:10%;
