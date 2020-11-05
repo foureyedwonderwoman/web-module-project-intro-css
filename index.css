@@ -63,7 +63,7 @@ h4{
 border: 2px solid blue;
  
 }
-img{display:inline;
+img{
     max-width: 10rem;
     max-height: 10rem;
     border-radius: 100px;
