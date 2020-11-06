@@ -48,17 +48,23 @@ table {
  border-spacing: 0;
 }
 /* this is where my css begins */
-*{
+p {
     font-family:"roboto";
+    font-size: 1rem;
 }
 h1{
     font-family: 'Chelsea Market';
     Font-size: 3.5rem;
     Margin-bottom: 4rem;
+    
 }
 h4{
+    font-family: 'Chelsea Market';
     font-size:1.5rem;
     Margin-bottom: 4rem;
+}
+p{
+    font-size:1.5rem;
 }
 .headerp{
     font-size:1.5rem;
@@ -139,16 +145,10 @@ border: 2px solid green;
 }
 
 
-.footerrm{
-    Margin-top:2%;
-    margin-bottom: 2%;
-    margin-left:20%;
-    margin-right: 20%;
-}
-
 .brownbox{
     color:white;
     background-color: #DDB9A3;
+    margin-top: 5%;
     Margin-right:10%;
     margin-left:10%;
     padding: 1rem;
@@ -166,19 +166,44 @@ border-radius: 25px;
 } */
 
 .fire{
-    margin:0 auto;
-    width: 20%;
-}
-.midsection{
-margin-right:10%;
-margin-left:10%;
+   justify-content: center;
+    width: 50%;}
 
+.truck{
+    justify-content: center;
+    width: 50%;
 }
+
+
+.midsection{
+margin-top:10%;
+margin-right:35%;
+margin-left:35%;
+justify-content: center;
+text-align:center;
+border: 1px solid green;
+}
+
 .btmsection{
-    margin-right:10%;
-    margin-left:10%;
-    
+    margin-right:35%;
+    margin-left:35%;
+    text-align:center;
+    justify-content: center;
+    border: 1px solid indigo;
 }
-#footerimg{
-margin-right:45%;
+footer{
+    width:100%;
+    background-size: 100%;
+    padding:3rem;
+    border:blue
 }
+.footerrm{
+    background-image: url("assets/footer_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width:100%;
+    height:20rem;
+    Margin-top:2%;
+    margin-bottom: 2%;
+    border: 1px solid brown;
