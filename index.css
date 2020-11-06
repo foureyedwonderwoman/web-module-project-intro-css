@@ -74,14 +74,14 @@ p{
 }
 
 .headerrm{
-    border:2px solid purple;
+    
     Margin-top:2%;
     margin-bottom: 2%;
     margin-left:20%;
     margin-right: 20%;
 }
 nav{
-    border:2px solid turquoise;
+    
 }
 #plan{
     display: inline-block;
@@ -119,13 +119,13 @@ nav{
 .top-section{
 display:block;
 width: 80%;
-border: 2px solid blue;
+
 margin:0 auto; 
 }
 .header-img{
     /* display:inline-block; */
     width: 50%;   
-border: 2px solid green;
+
 }
 .headm{
     width: 30%;
@@ -135,7 +135,7 @@ border: 2px solid green;
     
 #header-wrds{
     display:inline-block;
-    border: 2px solid red;
+    
     text-align: center;
     width:60%;
      margin-left:2rem;
@@ -181,7 +181,7 @@ margin-right:35%;
 margin-left:35%;
 justify-content: center;
 text-align:center;
-border: 1px solid green;
+
 }
 
 .btmsection{
@@ -189,13 +189,13 @@ border: 1px solid green;
     margin-left:35%;
     text-align:center;
     justify-content: center;
-    border: 1px solid indigo;
+  
 }
 footer{
     width:100%;
     background-size: 100%;
     padding:3rem;
-    border:blue
+ 
 }
 .footerrm{
     background-image: url("assets/footer_img.jpg");
@@ -206,4 +206,4 @@ footer{
     height:20rem;
     Margin-top:2%;
     margin-bottom: 2%;
-    border: 1px solid brown;
+    
