@@ -1,7 +1,8 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
   v2.0 | 20110126
   License: none (public domain)
-*/html, body, div, span, applet, object, iframe,
+*/
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -27,7 +28,9 @@ footer, header, hgroup, menu, nav, section {
  display: block;
 }
 body {
+ max-width:1400px;
  line-height: 1;
+ margin:0 auto;
 }
 ol, ul {
  list-style: none;
@@ -44,29 +47,138 @@ table {
  border-collapse: collapse;
  border-spacing: 0;
 }
+/* this is where my css begins */
+*{
+    font-family:"roboto";
+}
+h1{
+    font-family: 'Chelsea Market';
+    Font-size: 3.5rem;
+    Margin-bottom: 4rem;
+}
+h4{
+    font-size:1.5rem;
+    Margin-bottom: 4rem;
+}
+.headerp{
+    font-size:1.5rem;
+    width: 70%;
+    margin:0 auto;
+    margin-bottom:1rem;
+}
 
+.headerrm{
+    border:2px solid purple;
+    Margin-top:2%;
+    margin-bottom: 2%;
+    margin-left:20%;
+    margin-right: 20%;
+}
 nav{
-    display:flex;
-    justify-content: space-between;
+    border:2px solid turquoise;
 }
-.headerm{
-   text-align: center;
-   margin-right: 20%;
-   margin-left: 20%;
-   margin-top:3%;
-}
-#plan{color:white;
-    padding:2rem;
-background-color: #FF764E;
-}
-
-#learn{color:white;
-    padding:2rem;
-    background-color:#5ED3EB
+#plan{
+    display: inline-block;
+    width:10%;
+    Margin-left:10%;
+    text-align: center;
+    border-radius: 15px;
+    color:white;
+    padding:1rem;
+    background-color: #FF764E;
 }
 
-#involve{color:white;
-    padding:2rem;
-background-color: #FFCD69
+#learn{
+    display: inline-block;
+    margin-right:18%;
+    margin-left:18%;
+    width:10%;
+    text-align: center;
+    border-radius: 15px;
+    color:white;
+    padding:1rem;
+    background-color:#5ED3EB;
+}
 
+#involve{
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    width:10%;
+    color:white;
+    padding:1rem;
+    background-color: #FFCD69;
+}
+
+.top-section{
+display:block;
+width: 80%;
+border: 2px solid blue;
+margin:0 auto; 
+}
+.header-img{
+    /* display:inline-block; */
+    width: 50%;   
+border: 2px solid green;
+}
+.headm{
+    width: 30%;
+    display:inline-block;
+    border-radius:30rem;   
+}
+    
+#header-wrds{
+    display:inline-block;
+    border: 2px solid red;
+    text-align: center;
+    width:60%;
+     margin-left:2rem;
+   height:100%;
+    /* padding:1rem; */
+
+}
+
+
+.footerrm{
+    Margin-top:2%;
+    margin-bottom: 2%;
+    margin-left:20%;
+    margin-right: 20%;
+}
+
+.brownbox{
+    color:white;
+    background-color: #DDB9A3;
+    Margin-right:10%;
+    margin-left:10%;
+    padding: 1rem;
+}
+
+/* .header-img{ */
+/* background-image:"assets/header_img.jp";
+display:inline-block;
+height: 1rem;
+width: 2rem;
+border-radius: 25%;
+margin-top:3%;
+margin-left: 75%;
+border-radius: 25px;
+} */
+
+.fire{
+    margin:0 auto;
+    width: 20%;
+}
+.midsection{
+margin-right:10%;
+margin-left:10%;
+
+}
+.btmsection{
+    margin-right:10%;
+    margin-left:10%;
+    
+}
+#footerimg{
+margin-right:45%;
 }
